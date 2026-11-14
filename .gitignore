@@ -1,0 +1,34 @@
+# Build e log
+/target/
+*.log
+/logs/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+
+# Configurazioni locali e segreti
+.env
+.env.*
+!.env.example
+application.properties
+application-*.properties
+application-local.yml
+application-local.yaml
+*.pem
+*.key
+*.p12
+*.jks
+
+# Dati caricati e file generati
+/uploads/
+/exports/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
